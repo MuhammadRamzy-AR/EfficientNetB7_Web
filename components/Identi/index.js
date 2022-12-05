@@ -14,7 +14,7 @@ const Identi = () => {
     const formData = new FormData(e.target);
 
     const Upload = async() => {
-      await fetch('http://localhost:5000/resnetv1', {
+      await fetch('http://localhost:5000/prediction', {
         method: 'POST',
         body: formData
       }).then(resp => {
