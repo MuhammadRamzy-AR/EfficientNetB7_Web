@@ -1,0 +1,31 @@
+.container {
+  @apply w-full bg-[#5F5F5F]/30 py-16 px-36 flex flex-col;
+}
+
+.judul {
+  @apply font-bold text-2xl mb-3;
+}
+
+.subjudul {
+  @apply text-justify text-base font-medium w-[900px]  mb-7;
+}
+
+.wrapper_penjelasan {
+  @apply flex flex-row justify-between;
+}
+
+.penjelasan {
+  @apply w-[333px] flex flex-col;
+}
+
+.gambar {
+  @apply relative w-12 h-12;
+}
+
+.textpenjelasan {
+  @apply font-bold text-base my-2;
+}
+
+.text {
+  @apply text-justify text-base font-medium;
+}

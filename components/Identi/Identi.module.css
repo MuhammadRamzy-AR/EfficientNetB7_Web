@@ -1,0 +1,27 @@
+.container {
+  @apply w-full   my-14 px-36 flex flex-col;
+}
+
+.judul {
+  @apply font-bold text-2xl mb-3;
+}
+
+.subjudul {
+  @apply text-justify text-base font-medium w-[900px]  mb-7;
+}
+
+.wrapper_input {
+  @apply h-[48px] w-full flex flex-row;
+}
+
+.input {
+  @apply h-[48px] w-[650px] flex flex-row mr-6;
+}
+
+.button {
+  @apply h-[48px] flex flex-row mr-6;
+}
+
+.button_up {
+  @apply border border-black w-[50px] h-[48px] absolute bottom-[313px] right-32 flex justify-center items-center opacity-80 hover:opacity-100 hover:shadow-md;
+}

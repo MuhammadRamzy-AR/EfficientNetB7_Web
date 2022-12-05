@@ -1,0 +1,22 @@
+.container {
+  @apply w-full my-14 px-36  flex flex-row justify-between;
+}
+.wrapper_judul {
+  @apply w-[600px] flex flex-col;
+}
+
+.judul {
+  @apply font-bold text-2xl mb-3;
+}
+
+.wrapper_penjelasan {
+  @apply w-[600px] flex flex-col;
+}
+
+.Penjelasan {
+  @apply font-bold text-base mt-5 mb-2;
+}
+
+.text {
+  @apply text-justify text-base font-medium;
+}

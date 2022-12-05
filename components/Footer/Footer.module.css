@@ -1,0 +1,27 @@
+.container {
+  @apply w-full bg-[#5F5F5F]/30 py-7 px-36 flex flex-col items-center;
+}
+
+.gambar {
+  @apply w-[61px] h-[61px] relative mb-5;
+}
+
+.subjudul {
+  @apply text-center text-base font-medium w-[600px]  mb-12;
+}
+
+.wrapper_kontak {
+  @apply flex flex-row w-full justify-center items-center gap-7;
+}
+
+.kontak {
+  @apply w-auto flex flex-row;
+}
+
+.icon {
+  @apply w-[24px] h-[24px] relative;
+}
+
+.text {
+  @apply text-base font-medium  text-[#262626] ml-2;
+}

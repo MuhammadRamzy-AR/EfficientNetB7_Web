@@ -1,0 +1,7 @@
+.primary {
+  @apply border border-black w-[186px] h-[48px] font-bold text-base hover:bg-black hover:text-white;
+}
+
+.secon {
+  @apply border border-black w-[186px] h-[46px] font-bold text-base hover:bg-black hover:text-white;
+}
