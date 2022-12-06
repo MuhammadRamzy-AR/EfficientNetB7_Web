@@ -9,9 +9,7 @@ const Tentang = () => {
     <div className={style.container} id="tentang">
       <div className={style.judul}>Tentang Penelitian</div>
       <div className={style.subjudul}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
-        eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-        elementum aenean purus euismod cursus ornare.
+      Penelitian ini menggunakan dataset mata manusia yang terbagi ke dalam 2 kategori yaitu mata katarak dan mata normal. Dataset yang digunakan bersumber dari situs website kaggle dan menggunakan Algoritma EfficientNetB7.
       </div>
       <div className={style.wrapper_penjelasan}>
         <div className={style.penjelasan}>
@@ -20,9 +18,7 @@ const Tentang = () => {
           </div>
           <div className={style.textpenjelasan}>Sumber Dataset</div>
           <div className={style.text}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium
-            id eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-            elementum aenean purus euismod cursus ornare.
+          Dataset ini bersumber dari situs website kaggle yang dapat dikunjungi melalui URL <u><a href="https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification" target="_blank">ini</a></u>.
           </div>
         </div>
         <div className={style.penjelasan}>
@@ -31,9 +27,7 @@ const Tentang = () => {
           </div>
           <div className={style.textpenjelasan}>Tingkat Akurasi </div>
           <div className={style.text}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium
-            id eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-            elementum aenean purus euismod cursus ornare.
+          Algoritma EfficientNetB7 menghasilkan performa prediksi dengan nilai akurasi sebesar 0.97 dan nilai loss sebesar 2.05.
           </div>
         </div>
         <div className={style.penjelasan}>
@@ -42,9 +36,7 @@ const Tentang = () => {
           </div>
           <div className={style.textpenjelasan}>Arsitektur</div>
           <div className={style.text}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium
-            id eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-            elementum aenean purus euismod cursus ornare.
+          Identifikasi gambar mata manusia antara katarak dan normal menggunakan salah satu algoritma deep learning yaitu EfficientNetB7.
           </div>
         </div>
       </div>

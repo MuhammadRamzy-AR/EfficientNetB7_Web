@@ -19,9 +19,7 @@ const Judul = () => {
       <div className={style.wrapper_penjelasan}>
         <div className={style.Penjelasan}>Penjelasan</div>
         <div className={style.text}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
-          eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-          elementum aenean purus euismod cursus ornare.
+        Website ini dibuat untuk mengidentifikasikan gambar mata manusia yang terdiri dari 2 kategori yaitu mata katarak dan mata normal dengan menggunakan Algoritma EfficientNetB7.
         </div>
       </div>
     </div>

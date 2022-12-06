@@ -32,9 +32,7 @@ const Identi = () => {
     <form onSubmit={handleSubmit} className="container mt-5 pt-5 pb-5" method='POST' encType="multipart/form-data">
       <div className={style.judul}>Identifikasi Katarak</div>
       <div className={style.subjudul}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. At pretium id
-        eget in in scelerisque at etiam. Ullamcorper neque proin placerat
-        elementum aenean purus euismod cursus ornare.
+        Masukkan gambar mata manusia untuk mengidentifikasi apakah mata tersebut katarak atau normal.
       </div>
       <div className={style.wrapper_input}>
         <div className={style.input}>
