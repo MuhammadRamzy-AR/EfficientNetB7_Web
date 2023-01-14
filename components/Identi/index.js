@@ -75,7 +75,7 @@ const Identi = () => {
 
       {/* Menampilkan output prediction/classification */}
         <div className="border border-black flex gap-[50px] flex-row w-[650px] h-20 justify-center items-center mt-4">
-            <div className=" flex-col w-[200px] text-sm gap-1 items-center justify-center flex">
+            <div className=" flex-col w-[150px] text-sm gap-1 items-center justify-center flex">
               <div className="w-[20px] h-[24px]  ">
                 <Image
                   src="/assets/icons/8.png"
@@ -88,7 +88,7 @@ const Identi = () => {
                 Hasil Identifikasi
               </span>
             </div>
-            <span className="text-sm text-hitam font-medium text-justify w-[500px]">
+            <span className="text-sm text-hitam font-medium text-justify w-[400px]">
                   {prediction && <h1 className="mx-auto font-semibold text-[#262626] text-1xl">{prediction.result}</h1>}
             </span>
         </div>
